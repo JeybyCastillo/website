@@ -14,7 +14,7 @@ body{
   
   font-family: 'PT Sans',sans-serif;
   background: #f0f0f0;
-  min-height: cal(100vh -100px -300px);
+  height: 100%;
 }
 
 /*header*/
