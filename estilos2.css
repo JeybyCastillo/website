@@ -196,14 +196,17 @@ color:rgb(0, 0, 0);
 /*Footer*/
 
 footer{
-    background:#0f0d0d;;
-    padding: 30px 0 20px 0;
-    margin:auto;
-    height: 15%;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    bottom: 0;
+  align-self:flex-end;
+  background:#0f0d0d;;
+  padding: 10px 0 1px 0;
+  margin-top: 10%;
+  height: 15%;
+  width: 100%;
+  overflow: hidden;
+  
+  bottom: 0px;
+  position: fixed;
+  margin-bottom: 0%;
   }
   
   .contenedor-footers{
