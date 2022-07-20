@@ -12,11 +12,12 @@
 
 body{
   
-  font-family: 'PT Sans',sans-serif;
-  background: #f0f0f0;
-  min-height: cal(100vh -100px -300px);
+  width: 100%;
+  color: rgb(246, 234, 234);
+  background-image: url(imagenes/913664.jpg);
+  background-repeat: no-repeat;
+  font-family: "Times New Roman";
 }
-
 /*header*/
 
 
