@@ -1,0 +1,16 @@
+
+
+body{
+    
+    background-image: url(../imagenes/odontologia-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1370px;
+  
+     
+}
+@media (max-width:800px){
+body{
+    background-position: fixed;
+    background-size:400% ;
+    
+}}

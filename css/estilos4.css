@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body{
+    margin: 0;
+    width: 100%;
+   background-image: url(../imagenes/f10.png);
+}
+h1{
+    text-align: center;
+    padding: 3%;
+    font-family: 'Dancing Script', cursive;
+}
+.logo4{
+    width: 200px;
+    height: 210px;
+    padding-top: 3%;
+    position: absolute;
+    left: 5%;
+    
+   
+}
+h4{
+   padding-left: 25%;
+   padding-right: 9%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
