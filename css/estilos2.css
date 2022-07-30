@@ -7,12 +7,24 @@ body{
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
+
+.menu__container h3{
+	padding-top: 270px;
+	position:absolute;
+	font-size: medium;
+	left:98px;
+	color:rgb(255, 255, 255);
+	font-family:Georgia, 'Times New Roman', Times, serif;
+   
+  }
+
+  .menu__container  .logo7{
+	width: 40px;
+	height: 40px;
+	left:93%;
+	display: flex;
+	position: absolute;
+  }
 /*Cards*/
 
 
