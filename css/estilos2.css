@@ -2,8 +2,9 @@ body{
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    background-image:url(../imagenes/fondo5.jpg) ;
+    background-image:url(../imagenes/v1.png) ;
     background-size: 1368px;
+
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
@@ -13,7 +14,7 @@ body{
 	position:absolute;
 	font-size: medium;
 	left:98px;
-	color:rgb(255, 255, 255);
+	color:#fff;
 	font-family:Georgia, 'Times New Roman', Times, serif;
    
   }
@@ -24,6 +25,17 @@ body{
 	left:93%;
 	display: flex;
 	position: absolute;
+  }
+  .menu__container h5{
+	padding-top: 49px;
+	position: absolute;
+	left: 93%;
+  }
+
+  .title-cards .logo8{
+	padding-top: 5px;
+	width: 300px;
+	height: 100px;
   }
 /*Cards*/
 
@@ -39,7 +51,7 @@ body{
 	max-width: 1080px;
 	margin: auto;
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 100px;
 	text-align: center;
 	color: #fff;
 	font-size: larger;

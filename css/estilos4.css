@@ -2,12 +2,16 @@
 body{
     margin: 0;
     width: 100%;
-   background-image: url(../imagenes/f10.png);
+   background-image: url(../imagenes/qs2.jpg);
+   background-repeat: no-repeat;
+   background-size: 1370px;
 }
 h1{
     text-align: center;
     padding: 5%;
     font-family: 'Dancing Script', cursive;
+    color:#fff;
+    
 }
 .logo4{
     padding-bottom: 5%;
@@ -22,7 +26,8 @@ h1{
 h4{
     padding-top: 1%;
    padding-left: 8%;
-   padding-right: 5%;
+   padding-right: 49%;
+   color: #fff;
    padding-top: 0%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -31,7 +36,7 @@ h4{
     position:absolute;
     font-size: medium;
     left:98px;
-    color:black;
+    color:#fff;
     font-family:Georgia, 'Times New Roman', Times, serif;
    
  }
@@ -47,4 +52,5 @@ h4{
     padding-top: 49px;
     position: absolute;
     right: 93px;
+    color: #fff;
 }
