@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-image:url(../imagenes/v1.png) ;
     background-size: 1368px;
+	height: 500px;
 
 }
 
@@ -26,95 +27,161 @@ body{
 	display: flex;
 	position: absolute;
   }
+
+  .pr_m  .productos h4{
+	position: absolute;
+	float: left;
+	padding-left: 92%;
+	padding-top: 46%;
+	color: #fff;
+	font-size: larger;
+}
+
+.pr_m  .productos .logo10{
+	width: 40px;
+	height: 50px;
+	left:93%;
+	position: absolute;
+  }
+
   .menu__container h5{
 	padding-top: 49px;
 	position: absolute;
 	left: 93%;
   }
 
-  .title-cards .logo8{
-	padding-top: 5px;
-	width: 300px;
-	height: 100px;
+  .m_r .logo8{
+	margin-top: 9%;
+	position: absolute;
+	width: 220px;
+	height: 90px;
+	left: 42%;
   }
 /*Cards*/
-
-
-.container-card{
+.slide-container{
+	margin: 17%;
+	max-width: 1120px;
 	width: 100%;
-	display: flex;
-	max-width: 1100px;
-	margin: auto;
-}
-.title-cards{
-	width: 100%;
-	max-width: 1080px;
-	margin: auto;
-	padding: 20px;
-	margin-top: 100px;
-	text-align: center;
-	color: #fff;
-	font-size: larger;
-}
-.card{
-	width: 100%;
-	margin: 20px;
-	border-radius: 6px;
+	justify-content: center;
+  }
+  .slide-content{
+	margin: 0 40px;
 	overflow: hidden;
-	background:#fff;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-	transition: all 400ms ease-out;
-	cursor: default;
-}
-.card:hover{
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-	transform: translateY(-3%);
-}
-.card img{
+	justify-content: center;
+  }
+  .card{
+	padding-bottom: 0%;
+	background-color: #FFF;
+  }
+  .image-content,
+  .card-content{
+	display: flex;
+	flex-direction: column;
+	padding-top: 0%;
+	padding: 10px 14px;
+  }
+  .image-content{
+	position: relative;
+	row-gap: 5px;
+	justify-items: center;
+	padding-top: 0%;
+	padding: 25px 0;
+	background-color:black;
+	
+  }
+  .overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
 	width: 100%;
-	height: 210px;
-}
-.card .contenido-card{
-	padding: 15px;
-	text-align: center;
-}
-.card .contenido-card h3{
-	margin-bottom: 15px;
-	color: black;
-}
-.card .contenido-card p{
-	line-height: 1.8;
-	color: black;
+	
+	
+  }
+
+  .overlay::after{
+	
+	background-color: #FFF;
+  }
+  .card-image{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	margin-top: 0px;
+	background: #FFF;
+	
+  }
+  .card-image .card-img{
+	height: 200px;
+	width: 330px;
+	object-fit: cover;
+	margin-top: 0px;
+	
+  }
+  .name{
+	padding-left: 5%;
+	padding-top: 10%;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(0, 0, 0);
+  }
+  .description{
 	font-size: 14px;
-	margin-bottom: 5px;
-}
-.card .contenido-card a{
-	display: inline-block;
-	padding: 10px;
-	margin-top: 10px;
-	text-decoration: none;
-	color: #2fb4cc;
-	border: 1px solid #2fb4cc;
-	border-radius: 4px;
-	transition: all 400ms ease;
-	margin-bottom: 5px;
-}
-.card .contenido-card a:hover{
-	background: #2fb4cc;
-	color: #fff;
-}
-@media only screen and (min-width:320px) and (max-width:768px){
-	.container-card{
-		flex-wrap: wrap;
+	color: #707070;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+  }
+  .button{
+	border: none;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: rgb(1, 0, 0);
+	padding: 8px 16px;
+	background-image: url(../imagenes/p2.gif);
+	border-radius: 6px;
+	margin: 14px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  .button:hover{
+	background-image: url(../imagenes/p1.webp);
+  }
+  
+  .swiper-navBtn{
+	color: #6E93f7;
+	transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+	color: #40eb0d;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+	font-size: 35px;
+  }
+  .swiper-button-next{
+	right: 0;
+  }
+  .swiper-button-prev{
+	left: 0;
+  }
+  .swiper-pagination-bullet{
+	background-color: #6E93f7;
+	opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+	background-color: #4070F4;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.slide-content{
+	  margin: 0 5px;
+	  justify-content: center;
+	  align-items: center;
 	}
-	.card{
-		margin: 15px;
+	.swiper-navBtn{
+	  display: none;
 	}
-}
+  }
+
+
 /*Fin-Cards*/
-@media (max-width:800px){
-	body{
-		background-position: fixed;
-		background-size:400% ;
-		
-	}}
