@@ -35,17 +35,56 @@ body{
 	padding-top: 46%;
 	color: #fff;
 	font-size: larger;
+	font-family: 'Times New Roman', Times, serif;
 }
 
-.pr_m  .productos .logo10{
-	width: 40px;
-	height: 50px;
-	left:93%;
+#tooltip{
+	position: relative;
+	cursor: pointer;
+	border-bottom: 2px dotted;
+	padding: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 70%;
+	font-family:'Times New Roman', Times, serif;
+	
+	
+}
+
+#tooltipText{
+	position: absolute;
+	left: 50%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	top:0;
+	transform: translateX(-50%);
+	background-color: rgba(64, 224, 46, 0.782);
+	color:#fff;
+	white-space: nowrap;
+	padding: 10px 15px;
+	border-radius: 7px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#tooltip:hover #tooltipText{
+	top: 0%;
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+.menu__container .logo10{
+	width: 42px;
+	height: 42px;
+	left:87%;
 	position: absolute;
   }
 
   .menu__container h5{
-	padding-top: 49px;
+	padding-top: 67px;
 	position: absolute;
 	left: 93%;
   }
@@ -85,7 +124,7 @@ body{
 	row-gap: 5px;
 	justify-items: center;
 	padding-top: 0%;
-	padding: 25px 0;
+	padding: 0px 0;
 	background-color:black;
 	
   }
@@ -114,13 +153,34 @@ body{
   .card-image .card-img{
 	height: 200px;
 	width: 330px;
+	padding: 0;
+	padding-top: 0px;
 	object-fit: cover;
 	margin-top: 0px;
 	
   }
+
+.card-content .precio{
+	padding-top: 35%;
+	position: absolute;
+	right: 80%;
+}  
+
+.card-content .tipo{
+	position: absolute;
+	right:75%;
+	font-family: 'Times New Roman', Times, serif;
+}  
+
+.card-content .cantidad{
+	width: 15%;
+	position: absolute;
+	right:58%;
+}
+
   .name{
 	padding-left: 5%;
-	padding-top: 10%;
+	padding-top: 15%;
 	font-size: 18px;
 	font-weight: 500;
 	color: rgb(0, 0, 0);
