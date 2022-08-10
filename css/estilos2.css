@@ -2,7 +2,7 @@ body{
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    background-image:url(../imagenes/v1.png) ;
+    background-image:url(../imagenes/ba3.jpg) ;
     background-size: 1368px;
 	height: 500px;
 
@@ -15,7 +15,7 @@ body{
 	position:absolute;
 	font-size: medium;
 	left:80px;
-	color:#fff;
+	
 	font-family:Georgia, 'Times New Roman', Times, serif;
    
   }

@@ -3,7 +3,7 @@ body{
     align-items: center;
     background-repeat: no-repeat;
     background-image:url(../imagenes/ba3.jpg) ;
-    background-size: 1568px;
+    background-size: 1640px;
 	height: 500px;
 
 }
@@ -18,6 +18,14 @@ body{
 	
 	font-family:Georgia, 'Times New Roman', Times, serif;
    
+  }
+
+  .m_r h2{
+	position: absolute;
+	margin-top: 17%;
+	
+	font-size: 22px;
+	margin-left: 40%;
   }
 
   .menu__container h6{
@@ -41,8 +49,8 @@ body{
   .pr_m  .productos h4{
 	position: absolute;
 	float: left;
-	padding-left: 92%;
-	padding-top: 46%;
+	padding-left: 88%;
+	padding-top: 69%;
 	color: #fff;
 	font-size: larger;
 	font-family: 'Times New Roman', Times, serif;
@@ -100,7 +108,8 @@ body{
   }
 
   .m_r .logo8{
-	margin-top: 9%;
+	margin-top: 10%;
+	
 	position: absolute;
 	width: 220px;
 	height: 90px;
@@ -133,10 +142,27 @@ body{
     object-fit: cover;
     position:relative;
     width: 300px;
-    height: 100%;
-  
-    
+    height: 100%;   
 }
+
+ .card-image .slider .i2{
+    margin-top: 28%;
+    width: 350px;
+    height: 40%;
+}
+.card-image .slider .i3{
+    margin-top: 50%;
+    width: 300px;
+    height: 45%;
+}
+
+.card-image .i4{
+	margin-top: 50%;
+    width: 320px;
+    height: 100%;
+	
+}
+
 
 @keyframes cambio {
     0%{margin-left: 0;}
@@ -152,9 +178,10 @@ body{
     100%{margin-left:-300%;}
     
 }
+
 /*Cards*/
 .slide-container{
-	margin: 17%;
+	margin: 21%;
 	max-width: 1120px;
 	width: 100%;
 	justify-content: center;
@@ -181,7 +208,7 @@ body{
 	justify-items: center;
 	padding-top: 0%;
 	padding: 0px 0;
-	background-color:black;
+	background-color:#fff;
 	
   }
   .overlay{
@@ -217,26 +244,27 @@ body{
   }
 
 .card-content .precio{
-	padding-top: 35%;
+	padding-top: 38%;
 	position: absolute;
 	right: 80%;
 }  
 
 .card-content .tipo{
 	position: absolute;
-	right:75%;
+	right:50%;
 	font-family: 'Times New Roman', Times, serif;
 }  
 
 .card-content .cantidad{
 	width: 15%;
+	margin-top: 0%;
 	position: absolute;
-	right:58%;
+	right:30%;
 }
 
   .name{
 	padding-left: 5%;
-	padding-top: 20%;
+	padding-top: 28%;
 	font-size: 18px;
 	font-weight: 500;
 	color: rgb(0, 0, 0);
