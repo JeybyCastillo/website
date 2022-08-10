@@ -2,41 +2,42 @@
 body{
     margin: 0;
     width: 100%;
-   background-image: url(../imagenes/qs2.jpg);
+   background-image: url(../imagenes/ba1.jpg);
    background-repeat: no-repeat;
    background-size: 1370px;
 }
 h1{
     text-align: center;
-    padding: 5%;
+    padding: 8%;
+    position: absolute;
+    left:50%;
     font-family: 'Dancing Script', cursive;
-    color:#fff;
+    color:black;
     
 }
 .logo4{
-    padding-bottom: 5%;
+    margin-top:11%;
     width: 220px;
-    height: 220px;
-    
+    height: 150px;
     position: absolute;
-   left: 70%;
-    
-   
+     right: 70%;
 }
-h4{
-    padding-top: 1%;
-   padding-left: 8%;
-   padding-right: 49%;
-   color: #fff;
-   padding-top: 0%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.menu__container h6{
+    position:absolute;
+    color:#fff;
+    left:88px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    color:black;
+
 }
 .menu__container h3{
-    padding-top: 10px;
+    padding-top: 15px;
     position:absolute;
     font-size: medium;
-    left:98px;
-    color:#fff;
+    left:88px;
+    color:black;
     font-family:Georgia, 'Times New Roman', Times, serif;
    
  }
@@ -52,5 +53,15 @@ h4{
     padding-top: 49px;
     position: absolute;
     right: 93px;
-    color: #fff;
+    color: black;
+}
+
+.texto h4{
+    color:black;
+    margin-top: 15%;
+    position:absolute;
+    text-align: center;
+    padding-left: 38%;
+    padding-right: 9%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

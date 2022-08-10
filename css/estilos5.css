@@ -1,0 +1,293 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image:url(../imagenes/v1.png) ;
+    background-size: 1368px;
+	height: 500px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.menu__container h3{
+	padding-top: 270px;
+	position:absolute;
+	font-size: medium;
+	left:98px;
+	color:#fff;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+   
+  }
+
+  .menu__container  .logo7{
+	width: 40px;
+	height: 40px;
+	left:93%;
+	display: flex;
+	position: absolute;
+  }
+
+  .pr_m  .productos h4{
+	position: absolute;
+	float: left;
+	padding-left: 92%;
+	padding-top: 46%;
+	color: #fff;
+	font-size: larger;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#tooltip{
+	position: relative;
+	cursor: pointer;
+	border-bottom: 2px dotted;
+	padding: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 70%;
+	font-family:'Times New Roman', Times, serif;
+	
+	
+}
+
+#tooltipText{
+	position: absolute;
+	left: 50%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	top:0;
+	transform: translateX(-50%);
+	background-color: rgba(64, 224, 46, 0.782);
+	color:#fff;
+	white-space: nowrap;
+	padding: 10px 15px;
+	border-radius: 7px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#tooltip:hover #tooltipText{
+	top: 0%;
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+.menu__container .logo10{
+	width: 42px;
+	height: 42px;
+	left:87%;
+	position: absolute;
+  }
+
+  .menu__container h5{
+	padding-top: 67px;
+	position: absolute;
+	left: 93%;
+  }
+
+  .m_r .logo8{
+	margin-top: 9%;
+	position: absolute;
+	width: 220px;
+	height: 90px;
+	left: 42%;
+  }
+
+/*SLIDER1*/
+.card-image .slider{
+    width:300px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+.card-image .slider ul{
+    display: flex;
+    padding: 0;
+    height: 50%;
+    width: 300px;
+    animation: cambio 20s infinite alternate ease-in-out;
+}
+
+.card-image .slider li{
+    width: 100%;
+    list-style: none;
+}
+
+ .card-image .slider img{
+    object-fit: cover;
+    position:relative;
+    width: 300px;
+    height: 100%;
+  
+    
+}
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left:-100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left:-200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left:-300%;}
+    
+}
+/*Cards*/
+.slide-container{
+	margin: 17%;
+	max-width: 1120px;
+	width: 100%;
+	justify-content: center;
+  }
+  .slide-content{
+	margin: 0 40px;
+	overflow: hidden;
+	justify-content: center;
+  }
+  .card{
+	padding-bottom: 0%;
+	background-color: #FFF;
+  }
+  .image-content,
+  .card-content {
+	display: flex;
+	flex-direction: column;
+	padding-top: 0%;
+	padding: 10px 14px;
+  }
+  .image-content{
+	position: relative;
+	row-gap: 5px;
+	justify-items: center;
+	padding-top: 0%;
+	padding: 0px 0;
+	background-color:black;
+	
+  }
+  .overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	
+	
+  }
+
+  .overlay::after{
+	
+	background-color: #FFF;
+  }
+  .card-image{
+	position: relative;
+	height: 380px;
+	width: 150px;
+	margin-top: 0px;
+	background: #FFF;
+	
+  }
+  .card-image .card-img{
+	height: 200px;
+	width: 330px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+	
+  }
+
+.card-content .precio{
+	padding-top: 35%;
+	position: absolute;
+	right: 80%;
+}  
+
+.card-content .tipo{
+	position: absolute;
+	right:75%;
+	font-family: 'Times New Roman', Times, serif;
+}  
+
+.card-content .cantidad{
+	width: 15%;
+	position: absolute;
+	right:58%;
+}
+
+  .name{
+	padding-left: 5%;
+	padding-top: 20%;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(0, 0, 0);
+  }
+  .description{
+	font-size: 14px;
+	color: #707070;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+  }
+  .button{
+	border: none;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: rgb(1, 0, 0);
+	padding: 8px 16px;
+	background-image: url(../imagenes/p2.gif);
+	border-radius: 6px;
+	margin: 18px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  .button:hover{
+	background-image: url(../imagenes/p1.webp);
+  }
+  
+  .swiper-navBtn{
+	color: #6E93f7;
+	transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+	color: #40eb0d;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+	font-size: 35px;
+  }
+  .swiper-button-next{
+	right: 0;
+  }
+  .swiper-button-prev{
+	left: 0;
+  }
+  .swiper-pagination-bullet{
+	background-color: #6E93f7;
+	opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+	background-color: #4070F4;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.slide-content{
+	  margin: 0 5px;
+	  justify-content: center;
+	  align-items: center;
+	}
+	.swiper-navBtn{
+	  display: none;
+	}
+  }
+
+
+/*Fin-Cards*/

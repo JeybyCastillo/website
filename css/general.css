@@ -25,9 +25,17 @@
  }
  
  .menu__container .logo2{
-     width:150px;
-     height: 45px;
+     width:120px;
+     height: 38px;
  }
+ .scroll-bar{
+    height:300px;
+    width: 318px;
+   
+    border:1px solid grey;
+    overflow-y:auto;
+ }
+
  .menu__container{
      display: flex;
      justify-content: space-between;

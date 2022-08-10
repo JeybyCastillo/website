@@ -5,11 +5,21 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
 }
+.menu__container h6{
+  position:absolute;
+  padding-top:270px;
+  color:#fff;
+  left:80px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:medium;
+  color:black;
+
+}
 .menu__container h3{
-  padding-top: 270px;
+  padding-top: 300px;
   position:absolute;
   font-size: medium;
-  left:98px;
+  left:80px;
   color:black;
   font-family:Georgia, 'Times New Roman', Times, serif;
  
