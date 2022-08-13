@@ -46,15 +46,17 @@ body{
 	position: absolute;
   }
 
-  .pr_m  .productos h4{
+.productos h4{
 	position: absolute;
 	float: left;
-	padding-left: 88%;
-	padding-top: 69%;
+	left: 88%;
+	margin-top: 69%;
 	color: #fff;
 	font-size: larger;
 	font-family: 'Times New Roman', Times, serif;
 }
+
+
 
 #tooltip{
 	position: relative;

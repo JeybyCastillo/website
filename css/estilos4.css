@@ -65,3 +65,14 @@ h1{
     padding-right: 9%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/*pagina mas.html*/
+
+
+.lista{
+    position: absolute;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 46%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
