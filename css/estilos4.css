@@ -67,12 +67,60 @@ h1{
 }
 /*pagina mas.html*/
 
+.titulo{
+    position: absolute;
+    left:50%;
+}
 
 .lista{
     position: absolute;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 16%;
     margin-left: 46%;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    padding-bottom: 3%;
+}
+
+.h{
+    position: absolute;
+    margin-top: 16%;
+    width: 17%;
+    height: 17%;
+    left: 80%
+}
+.h1{
+    position: absolute;
+    margin-top: 17%;
+    width: 5%;
+    height: 25%;
+    left: 20%
+}
+.h2{
+    position: absolute;
+    margin-top: 33%;
+    width: 5%;
+    height: 25%;
+    left:28%
+}
+.h3{
+    position: absolute;
+    width:15%;
+    height: 25%;
+    margin-top:17% ;
+    left: 20%
+}
+.h4{
+    position: absolute;
+    margin-top: 32%;
+    width: 12%;
+    height: 25%;
+    left: 75%
+}
+.h5{
+    position: absolute;
+    margin-top: 7%;
+    width: 19%;
+    height: 19%;
+    left: 45%
 }
