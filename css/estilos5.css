@@ -152,6 +152,16 @@ body{
 	height: 100%;
 	position: relative;
 }
+.card-image .slider .i6{
+	width:370px;
+	height: 90%;
+	padding: 0;
+	object-fit: cover;
+	left:-10%;
+	justify-content: center;
+}
+
+
 
  .card-image .slider .i2{
     margin-top: 28%;
@@ -240,7 +250,7 @@ body{
   .card-image{
 	position: relative;
 	height: 380px;
-	width: 150px;
+	width: 160px;
 	margin-top: 0px;
 	background: #FFF;
 	
