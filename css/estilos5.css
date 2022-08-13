@@ -144,6 +144,12 @@ body{
     width: 300px;
     height: 100%;   
 }
+.card-image .slider .i{
+	width: 310px;
+	object-fit: cover;
+	height: 100%;
+	position: relative;
+}
 
  .card-image .slider .i2{
     margin-top: 28%;
@@ -161,6 +167,10 @@ body{
     width: 320px;
     height: 100%;
 	
+}
+.card-image .i5{
+	width: 330px;
+	height:120% ;
 }
 
 
