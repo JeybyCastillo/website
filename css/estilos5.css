@@ -3,8 +3,9 @@ body{
     align-items: center;
     background-repeat: no-repeat;
     background-image:url(../imagenes/ba3.jpg) ;
-    background-size: 1640px;
-	height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 
 }
 

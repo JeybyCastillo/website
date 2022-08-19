@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     width: 100%;
@@ -6,6 +14,121 @@ body{
    background-repeat: no-repeat;
    background-size: 1370px;
 }
+.menu{
+    background-color:transparent;
+    position: relative;
+     font-size: larger;
+     color:black;
+     height: 70px;
+ }
+
+ .menu__container .logo{
+     width: 350px;
+     display: block;
+     border: none;
+    line-height: 0;
+    padding-top: 27%;
+     height: 250px;
+ }
+ 
+ .menu__container .logo2{
+     width:120px;
+     height: 38px;
+ }
+.scroll-bar{
+    height:300px;
+    width: 318px;
+   
+    border:1px solid grey;
+    overflow-y:auto;
+ }
+
+ .menu__container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 90%;
+     max-width: 1200px;
+     height: 100%;
+     margin: 0 auto;
+ }
+ 
+ .menu__links{
+     height: 50%;
+     transition: transform .5s;
+     display: flex;
+ }
+ 
+ .menu__item{
+     list-style: none;
+     position: relative;
+     height: 100%;
+     --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+     --transform: rotate(-90deg);
+ }
+ 
+ .menu__item:hover{
+     --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+     --transform: rotate(0);
+ }
+ 
+ .menu__link{
+     color:black;
+     text-decoration: none;
+     padding: 0 30px;
+     display: flex;
+     height: 100%;
+     align-items: center;
+ }
+ 
+ /*.menu__link:hover{
+     background-color: rgb(0, 0, 0);
+ }*/
+ 
+ 
+ .menu__arrow{
+     transform: var(--transform);
+     transition: transform .3s;
+     display: block;
+     margin-left: 3px;
+     height: 35px;
+ }
+ 
+ .menu__nesting{
+     list-style: none;
+     transition:clip-path .3s;
+     clip-path: var(--clip);
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     width: max-content;
+     transform: translateY(100%);
+     background-color: #fff;
+    overflow: auto;
+ }
+ 
+ .menu__link--inside{
+     padding: 30px 100px 30px 20px;
+ }
+ 
+ .menu__link--inside:hover{
+     background-color: #358425b7;
+ }
+ 
+ .menu__hamburguer{
+     height: 100%;
+     display: flex;
+     align-items: center;
+     padding: 0 15px;
+     cursor: pointer;
+     display: none;
+ }
+ 
+ .menu__img{
+     display: block;
+     width: 36px;
+ }
+
 h1{
     text-align: center;
     padding: 8%;
@@ -124,3 +247,23 @@ h1{
     height: 19%;
     left: 45%
 }
+@media (max-width: 667px){
+    body{
+        background-position: absolute;
+        
+        background-size: cover;
+        padding-bottom: 0%;
+        
+    }
+
+    .menu__container .logo{
+      width: 10px;
+       display: block;
+       border: none;
+      line-height: 0;
+   }
+
+  
+    
+}
+
