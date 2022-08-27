@@ -22,7 +22,7 @@
             <p><h3>DISTRIBUIDOR DE LAS MEJORES MARCAS</h3></p></a>
           
           <a href="prueba.html" class="menu__link"><img  src="imagenes/home.png" class="logo7"><h5>Home</h5> </a>
-             <a href="#" class="menu__link"><img  src="imagenes/comprar.png" class="logo10">
+             <a href="historial.html" class="menu__link"><img  src="imagenes/comprar.png" class="logo10">
              <div  id="tooltip">
              <span id="tooltipText">Aquí encontraras tu historial de compras</span>
              <span> TusCompras </span>
@@ -104,11 +104,15 @@
                         <div class="card-content">
                            <br> <h2 class="name">Medicem</h2>
                             <p class="precio">$0.00</p>
-                            <form>
-                           <br> <label class="tipo"for="pre">Cantidad</label>
-                            <input class="cantidad"id="pre" type="text"> 
+                            <form action ="">
+                            <div>
+                           <br> <label class="tipo"for="cantidad">Cantidad</label>
+                                <input class="cantidad"id="cantidad" type="text"> 
+                            </div>
+                            <br> <input type="submit" onclick =  'return enviarCompra();' value='Comprar' class="button">  </br>
+
                             </form>
-                         <br>   <button class="button">Comprar</button>
+                            <div id="error"></div>
                         </div>
                     </div>
                     <div class="card swiper-slide">
@@ -132,11 +136,14 @@
                         <div class="card-content">
                            <br> <h2 class="name">Urbical</h2>
                             <p class="precio">$0.00</p>
-                            <form>
-                           <br> <label class="tipo"for="pre">Cantidad</label>
-                            <input class="cantidad"id="pre" type="text"> 
+                            <form action ="">
+                            <div>
+                           <br> <label class="tipo"for="val1">Cantidad</label>
+                                <input class="cantidad"id="val1" type="text"> 
+                            </div>
+                            <br> <input type="submit" onclick =  'return enviarCompra2();' value='Comprar' class="button">  </br>
                             </form>
-                           <br> <button class="button">Comprar</button>
+                            <div id="error2"></div>
                         </div>
                     </div>
                     <div class="card swiper-slide">
@@ -151,11 +158,14 @@
                         <div class="card-content">
                             <br><h2 class="name">Material de obturacion provisional</h2>
                             <p class="precio">$0.00</p>
-                            <form>
-                           <br> <label class="tipo"for="pre">Cantidad</label>
-                            <input class="cantidad"id="pre" type="text"> 
+                           <form action ="">
+                            <div>
+                           <br> <label class="tipo"for="val2">Cantidad</label>
+                                <input class="cantidad"id="val2" type="text"> 
+                            </div>
+                            <br> <input type="submit" onclick =  'return enviarCompra3();' value='Comprar' class="button">  </br>
                             </form>
-                           <br> <button class="button">Comprar </button>
+                            <div id="error3"></div>
                         </div>
                     </div>
                     <div class="card swiper-slide">
@@ -170,11 +180,14 @@
                         <div class="card-content">
                             <h2 class="name">Cemento de fijación temporal sin eugenol</h2>
                             <p class="precio">$0.00</p>
-                            <form>
-                           <br> <label class="tipo"for="pre">Cantidad</label>
-                            <input class="cantidad"id="pre" type="text"> 
+                           <form action ="">
+                            <div>
+                           <br> <label class="tipo"for="val3">Cantidad</label>
+                                <input class="cantidad"id="val3" type="text"> 
+                            </div>
+                            <br> <input type="submit" onclick =  'return enviarCompra4();' value='Comprar' class="button">  </br>
                             </form>
-                         <br>   <button class="button">Comprar</button>
+                            <div id="error4"></div>
                         </div>
                     </div>
                     <div class="card swiper-slide">
@@ -189,11 +202,14 @@
                         <div class="card-content">
                             <h2 class="name">Cemento de revestimiento de ionomero de vidrio</h2>
                             <p class="precio">$0.00</p>
-                            <form>
-                           <br> <label class="tipo"for="pre">Cantidad</label>
-                            <input class="cantidad"id="pre" type="text"> 
+                           <form action ="">
+                            <div>
+                           <br> <label class="tipo"for="val4">Cantidad</label>
+                                <input class="cantidad"id="val4" type="text"> 
+                            </div>
+                            <br> <input type="submit" onclick =  'return enviarCompra5();' value='Comprar' class="button">  </br>
                             </form>
-                         <br>   <button class="button">Comprar</button>
+                            <div id="error5"></div>
                         </div>
                     </div>
 
@@ -209,11 +225,14 @@
                         <div class="card-content">
                             <h2 class="name">Revestimiento compuesto de ionomero de vidrio fotopolimerizable</h2>
                             <p class="precio">$0.00</p>
-                            <form>
-                           <br> <label class="tipo"for="pre">Cantidad</label>
-                            <input class="cantidad"id="pre" type="text"> 
+                            <form action ="">
+                            <div>
+                           <br> <label class="tipo"for="val5">Cantidad</label>
+                                <input class="cantidad"id="val5" type="text"> 
+                            </div>
+                            <br> <input type="submit" onclick =  'return enviarCompra6();' value='Comprar' class="button">  </br>
                             </form>
-                           <br> <button class="button">Comprar</button>
+                            <div id="error6"></div>
                         </div>
                     </div>
                 </div>
@@ -233,5 +252,6 @@
     <!-- JavaScript -->
     <script src="js/script.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/compra.js"></script>
 </body>
 </html>

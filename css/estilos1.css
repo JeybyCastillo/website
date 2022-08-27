@@ -31,51 +31,63 @@ body{
 
 /*footer*/
 
+
 .footer{
-    background-color: rgb(35, 34, 34);
-    text-align: center;
-    position: absolute;
-    grid-area: footer;
+  position: absolute;
     bottom: 0;
-    text-align: center;
+    left: 0;
+    height: 19%;
     width: 100%;
-    height: 15%;
-    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #121212;
+    
 }
 .footer h6{
-    margin-top: 3%;
+    margin-top: 7%;
     position: absolute;
-    margin-left: 50%;
+    margin-left: 5%;
     font-size: larger  ;
+    background-color: #121212;
 }
 .footer .marc{
-    margin-top: 1%;
+    background-color: #121212;
     position: absolute;
+    height: auto;
     right: 25%;
 }
 @media (max-width:800px){
 
 
-    .footer{
-        margin-top: 100%;
-        position:static;
-        height: 15%;
+   .footer{
+    position: relative;
+        flex-direction: column;
         width: 100%;
-        padding-top: 30px;
-    }
+        height: auto;
+        margin-top: 80%;
+        padding: 2rem 0;
+        border-bottom: 1px solid #2A2A2A;
+        justify-content: center;
+        align-items: center;
+   }
 
     .footer .marc{
+        position:absolute;
         width: 100%;
        position: static;
-       margin-top: -10%;
+       margin-top: 3%;
         
     }
 
     .footer h6{
-        position: absolute;
+        position: static;
         font-size: small;
-        margin-top: 0%;
-        margin-left: 45%;
+       position: relative;
+       margin-top: -1%;
+        margin-left: 5%;
         
     }
     }
