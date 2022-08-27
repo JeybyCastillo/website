@@ -12,7 +12,9 @@ body{
     width: 100%;
    background-image: url(../imagenes/ba1.jpg);
    background-repeat: no-repeat;
-   background-size: 1370px;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
 }
 .menu{
     background-color:transparent;
@@ -247,23 +249,54 @@ h1{
     height: 19%;
     left: 45%
 }
+/*NO TOCAR COD TOP*/
+
 @media (max-width: 667px){
-    body{
-        background-position: absolute;
-        
-        background-size: cover;
-        padding-bottom: 0%;
-        
-    }
 
     .menu__container .logo{
-      width: 10px;
+      width: 60%;
+      height: 10%;
        display: block;
        border: none;
       line-height: 0;
    }
 
-  
-    
+   .menu__container h6 {
+    margin-top: 0%;
+    position: absolute;
+    margin-left: -16%;
+  }
+
+  .menu__container h3{
+    margin-top: 0%;
+    position: absolute;
+    margin-left: -16%;
+  }
+
+  .menu__container  .logo7{
+    position: absolute;
+    left: 85%;
+  }
+
+  .menu__container h5{
+    position: absolute;
+    left:84.5%;
+  }
+  .texto h4{
+    position: absolute;
+    margin-top: 50%;
+  }
+
+
+  h1{
+    position: absolute;
+    margin-top: 20%;
+  }
+
+  .logo4{
+    width: 30%;
+    height: 10%;
+    margin-top: 30%;
+  }
 }
 

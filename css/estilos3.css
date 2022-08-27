@@ -3,7 +3,7 @@ body{
     display: grid;
    background-image: url(../imagenes/f7.webp);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size:cover;
    background-attachment: fixed;
    background-position: center;
 }
@@ -100,7 +100,7 @@ body{
    background-color: #fff;
   overflow: auto;
 }
-
+ 
 .menu__link--inside{
    padding: 30px 100px 30px 20px;
 }
@@ -263,13 +263,20 @@ h1::after{
   }
 
   .logo3{
-    padding-top: 0%;
-    padding-left: 15%;
-    width:1200px;
-    height:800px;
+    margin-top: 0%;
+    margin-left: 25%;
+    width:50%;
+    height:100%;
   }
   @media (max-width: 667px){
   
+    body{
+      background-position: absolute;
+      
+      background-size: cover;
+      padding-bottom: 0%;
+      
+  }
 
     .menu__container .logo{
       width: 50%;
@@ -307,7 +314,7 @@ h1::after{
  .logo3{
    position: absolute;
    margin-top: 50%;
-   margin-left: -12%;
+   margin-left: 1%;
    width:90%;
    height:50%;
  }
