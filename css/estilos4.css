@@ -8,8 +8,6 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0;
-    width: 100%;
    background-image: url(../imagenes/ba1.jpg);
    background-repeat: no-repeat;
    background-size: cover;
