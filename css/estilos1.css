@@ -33,7 +33,10 @@ body{
 
 
 .footer{
-  position: absolute;
+    position: absolute;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    right: 0;
     bottom: 0;
     left: 0;
     height: 19%;
@@ -82,6 +85,7 @@ body{
         border-bottom: 1px solid #2A2A2A;
         justify-content: center;
         align-items: center;
+        margin-bottom: 40%;
    }
 
     .footer .marc{
