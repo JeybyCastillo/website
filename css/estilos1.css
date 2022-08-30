@@ -64,8 +64,6 @@ body{
 }
 @media (max-width:800px){
 
-    
-
     .menu__container h6{
         margin-left: -16%;
     }
@@ -85,7 +83,7 @@ body{
         border-bottom: 1px solid #2A2A2A;
         justify-content: center;
         align-items: center;
-        margin-bottom: 40%;
+        
    }
 
     .footer .marc{

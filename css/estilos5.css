@@ -167,8 +167,8 @@ body{
 	position: absolute;
 	float: left;
 	left: 88%;
-	margin-top: 79%;
-	color: #fff;
+	margin-top:70%;
+	color: #000;
 	font-size: larger;
 	font-family: 'Times New Roman', Times, serif;
 }
@@ -533,19 +533,30 @@ body{
     }
 
 	.menu__container h3{
-		margin-top: -28%;
+		margin-top: -39%;
+		position: absolute;
 		margin-left: 0%;
 		position: absolute;
 		font-size: 10px;
 		color: #000;
 	   }
 	   .menu__container h6{
-		margin-top: -20%;
+		position: absolute;
+		margin-top: -32%;
 		margin-left: 0%;
 		font-size: 10px;
 		color: #000;
 	   }
  
+	   .m_r h2{
+		position: absolute;
+		margin-top: -3%;
+		color:#FFF;
+		margin-left: 6%;
+		font-size: 20px;
+	   }
+
+
 	.menu__container h5{
 		display: none;
 	}
@@ -647,7 +658,7 @@ body{
 
 	.productos h4{
 		position: absolute;
-		margin-top: 300%;
+		margin-top: 295%;
 		margin-left: -50%;
 	 }
 
