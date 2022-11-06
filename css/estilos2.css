@@ -54,12 +54,12 @@ body{
 .cuerpo{
 	max-width: 1200px;
 	background-color: tomato;
-	height: 70vh;
+	
 }
 .m_r{
 	background-color: violet;
 	width: 90%;
-	height: 15vh;
+	height: 18vh;
 }
 
 .sechome{
