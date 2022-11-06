@@ -53,6 +53,7 @@ body{
 
 .cuerpo{
 	max-width: 1200px;
+	background-color: tomato;
 	height: 70vh;
 }
 .m_r{
