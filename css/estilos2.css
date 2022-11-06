@@ -3,25 +3,12 @@
 
 
 body{
-    justify-content: center;
-    align-items: center;
     background-repeat: no-repeat;
     background-image:url(../imagenes/ba3.jpg) ;
 	background-size: cover;
-    background-attachment: fixed;
     background-position: center;
-
 }
 
-  .pr_m  .productos h4{
-	position: absolute;
-	float: left;
-	padding-left: 92%;
-	padding-top: 46%;
-	color: #fff;
-	font-size: larger;
-	font-family: 'Times New Roman', Times, serif;
-}
 /*
 #tooltip{
 	position: relative;
@@ -56,9 +43,12 @@ body{
 	visibility: visible;
 	opacity: 1;
 }
-
 */
 
+
+.slide-container{
+background-color: yellow;
+}
 .menu__container .logo10{
 	width: 42px;
 	height: 42px;
