@@ -50,12 +50,6 @@ body{
     margin-bottom: 2vh;
     display: flex;
 }
-
-.cuerpo{
-	max-width: 1200px;
-	background-color: tomato;
-	
-}
 .m_r{
 	background-color: violet;
 	width: 90%;
@@ -85,8 +79,19 @@ body{
     height: 17vh;
     }
 
+.id{
+	background-color: rgb(141, 130, 238);
+	width: 90%;
+	height: 18vh;
+}
 
 /*CARDS*/
+.cuerpo{
+	max-width: 1200px;
+	background-color: tomato;
+	height: auto;
+	
+}
 .slide-container{
 background-color: yellow;
 }
@@ -136,16 +141,17 @@ background-color: yellow;
 	
 	background-color: #FFF;
   }
-  .card-image{
+
+  .card-image2{
 	position: relative;
-	height: 150px;
-	width: 150px;
+	height: 300px;
+	width: 140px;
 	margin-top: 0px;
 	background: #FFF;
 	
   }
-  .card-image .card-img{
-	height: 200px;
+  .card-image2 .card-img2{
+	height: 300px;
 	width: 330px;
 	padding: 0;
 	padding-top: 0px;
@@ -153,38 +159,11 @@ background-color: yellow;
 	margin-top: 0px;
 	
   }
+ 
 
-.card-content .precio{
-	padding-top: 35%;
-	position: absolute;
-	right: 80%;
-}  
-
-.card-content .tipo{
-	position: absolute;
-	right:75%;
-	font-family: 'Times New Roman', Times, serif;
-}  
-
-.card-content .cantidad{
-	width: 15%;
-	position: absolute;
-	right:58%;
+.card-content{
+	background-color: #40eb0d;
 }
-
-  .name{
-	padding-left: 5%;
-	padding-top: 15%;
-	font-size: 18px;
-	font-weight: 500;
-	color: rgb(0, 0, 0);
-  }
-  .description{
-	font-size: 14px;
-	color: #707070;
-	font-family: 'Times New Roman', Times, serif;
-	text-align: center;
-  }
   .button{
 	border: none;
 	font-family: 'Times New Roman', Times, serif;
