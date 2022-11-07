@@ -136,17 +136,35 @@ body{
 	width: 150px;
 	margin-top: 0px;
 	background: #FFF;
-	
   }
+
   .card-image .card-img{
 	height: 220px;
-	width: 329px;
+	width: 311px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+  }
+
+  .card-image2{
+	position: relative;
+	height: 169px;
+	width: 150px;
+	margin-top: 0px;
+	background: #FFF;
+  }
+
+  .card-image2 .card-img2{
+	height: 260px;
+	width: 311px;
 	padding: 0;
 	padding-top: 0px;
 	object-fit: cover;
 	margin-top: 0px;
 	
   }
+  
 .meta{
 	width: 18%;
 	height: 65%;
