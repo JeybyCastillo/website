@@ -222,6 +222,19 @@ body{
 	/* background-color: rgb(148, 49, 49);*/
 	 height: 10vh;
  }
+ .foo{
+	width: 80%;
+ }
+ .ver{
+	text-align: right;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+	width: 20%;
+ }
+
+ .ver h4{
+	color: black;
+ }
 
 
 /*
