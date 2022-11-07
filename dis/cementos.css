@@ -153,20 +153,23 @@ background-color: yellow;
 
   .card-image2{
 	position: relative;
-	height: 230px;
+	height: 240px;
 	width: 150px;
 	margin-top: 0px;
 	background: #FFF;
   }
 
-   .card-img2{
-	height: 275px;
+   .card-image2 .card-img2{
+	height: 150%;
 	width: 311px;
 	padding: 0;
 	padding-top: 0px;
 	object-fit: cover;
 	margin-top: 0px;
 	
+  }
+  .name{
+	margin-top: 40%;
   }
   
 .meta{
