@@ -130,21 +130,22 @@ body{
 	
   }
  
-  .card-image2{
+  .card-image{
 	position: relative;
-	height: 208px;
+	height: 150px;
 	width: 150px;
 	margin-top: 0px;
-	/*background: rgb(194, 81, 81);*/
-	display: block;
+	background: #FFF;
+	
   }
-  .card-image2 .card-img2{
-	height: 240px;
-	width: 311px;
+  .card-image .card-img{
+	height: 220px;
+	width: 329px;
 	padding: 0;
 	padding-top: 0px;
 	object-fit: cover;
 	margin-top: 0px;
+	
   }
 .meta{
 	width: 18%;
