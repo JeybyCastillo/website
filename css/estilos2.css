@@ -51,7 +51,7 @@ body{
     display: flex;
 }
 .m_r{
-	background-color: violet;
+	/*background-color: violet;*/
 	width: 90%;
 	height: 18vh;
 }
@@ -59,7 +59,7 @@ body{
 .sechome{
     width: 30%;
 	height: 15vh;
- 	background-color: rgb(201, 0, 0);
+ 	/*background-color: rgb(201, 0, 0);*/
     display: block;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(8, 5, 5);
@@ -80,7 +80,7 @@ body{
     }
 
 .id{
-	background-color: rgb(141, 130, 238);
+	/*background-color: rgb(141, 130, 238);*/
 	width: 90%;
 	height: 18vh;
 	display:block;
@@ -91,10 +91,10 @@ body{
 /*CARDS*/
 .cuerpo{
 	max-width: 1200px;
-	background-color: tomato;
+	/*background-color: tomato;*/
 }
 .slide-container{
-background-color: yellow;
+/*background-color: yellow;*/
 }
 
 
@@ -131,11 +131,11 @@ background-color: yellow;
  
   .card-image2{
 	position: relative;
-	height: 150px;
+	height: 208px;
 	width: 150px;
 	margin-top: 0px;
-	background: rgb(194, 81, 81);
-	
+	/*background: rgb(194, 81, 81);*/
+	display: block;
   }
   .card-image2 .card-img2{
 	height: 240px;
@@ -150,11 +150,10 @@ background-color: yellow;
 	height: 65%;
 }
 .card-content{
-	
+	display: block;
 	text-align: center;
-	background-color: #40eb0d;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	height: 10%;
+	/*background-color: #40eb0d;*/
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
   .button{
@@ -178,7 +177,7 @@ background-color: yellow;
 	transition: color 0.3s ease;
   }
   .swiper-navBtn:hover{
-	color: #40eb0d;
+	color: #171817;
   }
   .swiper-navBtn::before,
   .swiper-navBtn::after{
@@ -200,7 +199,7 @@ background-color: yellow;
   
  .pie{
 	width: 90%;
-	 background-color: rgb(148, 49, 49);
+	/* background-color: rgb(148, 49, 49);*/
 	 height: 10vh;
  }
 
