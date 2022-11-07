@@ -89,8 +89,8 @@ body{
 	font-size: large;
 }
 
-.coltene{
-    width: 35%;
+.prom{
+    width: 15%;
 }
 
 /*CARDS*/
@@ -153,14 +153,14 @@ background-color: yellow;
 
   .card-image2{
 	position: relative;
-	height: 169px;
+	height: 230px;
 	width: 150px;
 	margin-top: 0px;
 	background: #FFF;
   }
 
-  .card-image2 .card-img2{
-	height: 260px;
+   .card-img2{
+	height: 275px;
 	width: 311px;
 	padding: 0;
 	padding-top: 0px;
