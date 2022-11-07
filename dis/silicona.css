@@ -246,3 +246,11 @@ background-color: yellow;
 			display: none;
 		}
 Fin-Cards*/
+@media screen and (max-width: 979px) {
+	.foo{
+		width: 70%;
+	}
+	.ver{
+		width:30%;
+	}
+}
