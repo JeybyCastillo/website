@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+.cuadro{
+    margin: auto;
+    border: 2px /*solid #000*/;
+    margin-bottom: 2vh;
+     display: flex;
+}
+
+.encabezado{
+    overflow:hidden;
+    width: 90%;
+  /*  float: left;*/
+    /*background-color: rgb(170, 126, 142);*/
+    height: 15vh;
+}
+.paghome{
+    width: 15%;
+   /* background-color: rgb(201, 0, 0);*/
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 5, 5);
+    text-align: center;
+    font-weight: bold;
+  }
+  .home{
+    width: 45px;
+  }
+  
+  .espacio{
+    width:83%;
+   /*background-color: rgb(43, 224, 43);*/
+    height: 15vh;
+    }
+/*.encabezado2{
+    overflow:hidden;
+    float: left;
+    width: 40%;
+    background-color: rgb(9, 30, 67);
+    height: 15vh;
+}*/
+
+.cuerpo{
+    width: 90%;
+/* background-color: rgb(43, 224, 43);*/
+    height: 81vh;
+}
+
+.pie{
+    width: 90%;
+   /* background-color: rgb(148, 49, 49);*/
+    height: 10vh;
+}
