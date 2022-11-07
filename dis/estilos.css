@@ -6,7 +6,7 @@ body{
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center center;
- /* background-attachment: fixed;/*para que quede fijo*/
+  background-attachment: fixed;/*para que quede fijo*/
 }
 .cuadro{
     margin: auto;
@@ -219,7 +219,7 @@ Full screen Modal
 .cuerpo{
     width: 95%;
    /* background-color: rgb(43, 224, 43);*/
-    height: 70vh;
+    height: 68vh;
 }
 
 .logo{
