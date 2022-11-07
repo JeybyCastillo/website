@@ -1,0 +1,248 @@
+/*CSS-EQUIPO*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+body{
+    background-repeat: no-repeat;
+    background-image:url(../imagenes/ba3.jpg) ;
+	background-size: cover;
+    background-position: center center;
+}
+
+/*
+#tooltip{
+	position: relative;
+	cursor: pointer;
+	border-bottom: 2px dotted;
+	padding: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 70%;
+	font-family:'Times New Roman', Times, serif;
+}
+
+#tooltipText{
+	position: absolute;
+	left: 50%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	top:0;
+	transform: translateX(-50%);
+	background-color: rgba(64, 224, 46, 0.782);
+	color:#fff;
+	white-space: nowrap;
+	padding: 10px 15px;
+	border-radius: 7px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#tooltip:hover #tooltipText{
+	top: 0%;
+	visibility: visible;
+	opacity: 1;
+}
+*/
+.cuadro{
+	margin: auto;
+    border: 2px /*solid #000*/;
+    margin-bottom: 2vh;
+    display: flex;
+}
+.m_r{
+	/*background-color: violet;*/
+	width: 90%;
+	height: 18vh;
+}
+
+.sechome{
+    width: 30%;
+	height: 15vh;
+ 	/*background-color: rgb(201, 0, 0);*/
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 5, 5);
+    text-align: center;
+    font-weight: bold;
+  }
+  .buy{
+    width: 40px;
+  }
+  
+  .logo{
+    width:70%;
+  /*background-color: rgb(37, 165, 37);*/
+  	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	display: block;
+    height: 17vh;
+    }
+
+.id{
+	/*background-color: rgb(141, 130, 238);*/
+	width: 90%;
+	height: 18vh;
+	display:block;
+	text-align: center;
+	font-size: large;
+}
+
+.coltene{
+    width: 35%;
+}
+
+/*CARDS*/
+.cuerpo{
+	max-width: 1200px;
+	/*background-color: tomato;*/
+}
+/*.slide-container{
+background-color: yellow;
+}*/
+
+
+.slide-container{
+	max-width: 1120px;
+	width: 100%;
+	justify-content: center;
+  }
+  .slide-content{
+	margin: 0 40px;
+	overflow: hidden;
+	justify-content: center;
+  }
+  .card{
+	padding-bottom: 0%;
+	background-color: #FFF;
+  }
+  .image-content,
+  .card-content{
+	display: flex;
+	flex-direction: column;
+	padding-top: 0%;
+	padding: 10px 14px;
+  }
+  .image-content{
+	position: relative;
+	row-gap: 5px;
+	justify-items: center;
+	padding-top: 0%;
+	padding: 0px 0;
+	background-color:black;
+	
+  }
+ 
+  .card-image{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	margin-top: 0px;
+	background: #FFF;
+  }
+
+  .card-img{
+	height: 220px;
+	width: 311px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+  }
+
+  .card-image2{
+	position: relative;
+	height: 169px;
+	width: 150px;
+	margin-top: 0px;
+	background: #FFF;
+  }
+
+  .card-image2 .card-img2{
+	height: 260px;
+	width: 311px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+	
+  }
+  
+.meta{
+	width: 18%;
+	height: 65%;
+}
+.card-content{
+	display: block;
+	text-align: center;
+	/*background-color: #40eb0d;*/
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  .button{
+	border: none;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: rgb(1, 0, 0);
+	padding: 8px 16px;
+	background-image: url(../imagenes/p2.gif);
+	border-radius: 6px;
+	margin: 14px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  .button:hover{
+	background-image: url(../imagenes/p1.webp);
+  }
+  
+  .swiper-navBtn{
+	color: #6E93f7;
+	transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+	color: #171817;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+	font-size: 35px;
+  }
+  .swiper-button-next{
+	right: 0;
+  }
+  .swiper-button-prev{
+	left: 0;
+  }
+  .swiper-pagination-bullet{
+	background-color: #6E93f7;
+	opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+	background-color: #4070F4;
+  }
+  
+ .pie{
+	width: 90%;
+	/* background-color: rgb(148, 49, 49);*/
+	 height: 10vh;
+ }
+ .foo{
+	width: 80%;
+ }
+ .ver{
+	text-align: right;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+	width: 20%;
+ }
+
+ .ver h4{
+	color: black;
+ }
+
+
+/*
+		#tooltip{
+			display: none;
+		}
+Fin-Cards*/
