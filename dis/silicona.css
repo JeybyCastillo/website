@@ -89,6 +89,10 @@ body{
 	font-size: large;
 }
 
+.coltene{
+    width: 35%;
+}
+
 /*CARDS*/
 .cuerpo{
 	max-width: 1200px;
