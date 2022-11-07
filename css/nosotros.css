@@ -6,3 +6,8 @@ body{
    /* background-attachment: fixed;/*para que quede fijo*/
    background-color: cadetblue;
   }
+
+  .cuerpo{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: small;
+  }
