@@ -160,9 +160,13 @@ background-color: yellow;
 	
   }
  
-
+.meta{
+	width: 15%;
+	height: 60%;
+}
 .card-content{
 	background-color: #40eb0d;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
   .button{
 	border: none;
