@@ -203,7 +203,12 @@ body{
 	/* background-color: rgb(148, 49, 49);*/
 	 height: 10vh;
  }
-
+ @media screen and (max-width: 979px) {
+ .meta{
+	width: 40%;
+	height: 65%;
+	}
+}
 
 /*
 		#tooltip{
