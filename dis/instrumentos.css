@@ -130,7 +130,7 @@ background-color: yellow;
 	justify-items: center;
 	padding-top: 0%;
 	padding: 0px 0;
-	background-color:black;
+	background-color: #FFF;
 	
   }
  
@@ -153,14 +153,14 @@ background-color: yellow;
 
   .card-image2{
 	position: relative;
-	height: 169px;
+	height: 250px;
 	width: 150px;
 	margin-top: 0px;
 	background: #FFF;
   }
 
-  .card-image2 .card-img2{
-	height: 260px;
+ .card-img2{
+	height: 290px;
 	width: 311px;
 	padding: 0;
 	padding-top: 0px;
@@ -168,8 +168,9 @@ background-color: yellow;
 	margin-top: 0px;
 	
   }
-  .name{
-	margin-top: 12%;
+
+  .name2{
+	margin-top: 15%;
   }
 .meta{
 	width: 18%;
