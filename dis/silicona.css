@@ -251,6 +251,14 @@ background-color: yellow;
 		}
 Fin-Cards*/
 @media screen and (max-width: 979px) {
+	.card-img{
+		width: 273px;
+	  }
+
+	  .card-image2 .card-img2{
+		width: 273px;
+	  }
+
 	.foo{
 		width: 70%;
 	}
