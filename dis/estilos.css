@@ -255,7 +255,9 @@ Full screen Modal
   width: 90%;
   height: 7vh;
 }
-
+.cuerpo{
+  height: 75vh;
+}
 }
 
 
