@@ -143,7 +143,7 @@ background-color: yellow;
   }
 
   .card-img{
-	height: 220px;
+	height: 220%;
 	width: 311px;
 	padding: 0;
 	padding-top: 0px;
@@ -160,8 +160,8 @@ background-color: yellow;
   }
 
  .card-img2{
-	height: 170%;
-	width: 311px;
+	height: 175%;
+	width: 300px;
 	padding: 0;
 	padding-top: 0px;
 	object-fit: cover;
@@ -183,14 +183,25 @@ background-color: yellow;
 	object-fit: cover;
 	margin-top: 0px;
   }
+  .card-img4{
+	height: 225%;
+	width: 311px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+  }
   .name{
-	margin-top: 40%;
+	margin-top: 77%;
   }
   .name2{
-	margin-top: 37%;
+	margin-top: 72%;
   }
   .name3{
 	margin-top: 75%;
+  }
+  .name4{
+	margin-top: 73%
   }
 .meta{
 	width: 18%;
