@@ -130,7 +130,7 @@ background-color: yellow;
 	justify-items: center;
 	padding-top: 0%;
 	padding: 0px 0;
-	background-color:black;
+	background-color:rgb(253, 250, 250);
 	
   }
  
@@ -160,7 +160,7 @@ background-color: yellow;
   }
 
  .card-img2{
-	height: 150%;
+	height: 170%;
 	width: 311px;
 	padding: 0;
 	padding-top: 0px;
@@ -175,12 +175,22 @@ background-color: yellow;
 	margin-top: 0px;
 	background: #FFF;
   }
-
+  .card-img3{
+	height: 200%;
+	width: 311px;
+	padding: 0;
+	padding-top: 0px;
+	object-fit: cover;
+	margin-top: 0px;
+  }
   .name{
 	margin-top: 40%;
   }
   .name2{
 	margin-top: 37%;
+  }
+  .name3{
+	margin-top: 75%;
   }
 .meta{
 	width: 18%;
