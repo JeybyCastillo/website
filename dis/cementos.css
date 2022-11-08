@@ -193,7 +193,7 @@ background-color: yellow;
   }
   .name{
 	margin-top: 77%;
-  }
+  } 
   .name2{
 	margin-top: 72%;
   }
@@ -280,3 +280,21 @@ background-color: yellow;
 			display: none;
 		}
 Fin-Cards*/
+
+@media screen and (max-width: 979px) {
+	.card-img2{
+		width: 273px;
+	  }
+
+	.card-img3{
+		width: 273px;
+	  } 
+	
+	.card-img4{
+		width: 273px;
+	  } 
+	  .name{
+		margin-top: 67%;
+	  }  
+	  
+	}
