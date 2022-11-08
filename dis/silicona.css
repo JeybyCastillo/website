@@ -130,7 +130,7 @@ background-color: yellow;
 	justify-items: center;
 	padding-top: 0%;
 	padding: 0px 0;
-	background-color:black;
+	background-color:#FFF;
 	
   }
  
@@ -168,6 +168,10 @@ background-color: yellow;
 	margin-top: 0px;
 	
   }
+
+.name2{
+	margin-top: 10%;
+}
   
 .meta{
 	width: 18%;
