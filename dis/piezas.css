@@ -130,8 +130,11 @@ background-color: yellow;
 	justify-items: center;
 	padding-top: 0%;
 	padding: 0px 0;
-	background-color:black;
+	background-color:#FFF;
 	
+  }
+  .name2{
+	margin-top: 32%;
   }
  
   .card-image{
