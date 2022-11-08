@@ -162,7 +162,7 @@ background-color: yellow;
 	background: #FFF;
   }
 
-  .card-image2 .card-img2{
+   .card-img2{
 	height: 260px;
 	width: 311px;
 	padding: 0;
@@ -250,6 +250,20 @@ background-color: yellow;
 		}
 Fin-Cards*/
 @media screen and (max-width: 979px) {
+	.anelsam{
+		width: 47%;
+	}
+	
+	
+	.card-img{
+		width: 273px;
+	  }
+
+	.card-img2{
+		width: 273px;
+	  } 
+	  
+
 	.foo{
 		width: 70%;
 	}

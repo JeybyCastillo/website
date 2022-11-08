@@ -282,6 +282,11 @@ background-color: yellow;
 Fin-Cards*/
 
 @media screen and (max-width: 979px) {
+	.prom{
+		margin-top: 4%;
+		width: 65%;
+	}
+	
 	.card-img2{
 		width: 273px;
 	  }

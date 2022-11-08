@@ -251,6 +251,11 @@ background-color: yellow;
 		}
 Fin-Cards*/
 @media screen and (max-width: 979px) {
+	.coltene{
+		margin-top: 5%;
+		width: 65%;
+	}
+
 	.card-img{
 		width: 273px;
 	  }
