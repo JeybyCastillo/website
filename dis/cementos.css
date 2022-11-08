@@ -201,7 +201,7 @@ background-color: yellow;
 	margin-top: 75%;
   }
   .name4{
-	margin-top: 79%
+	margin-top: 82%
   }
 .meta{
 	width: 18%;
@@ -229,7 +229,7 @@ background-color: yellow;
   .button:hover{
 	background-image: url(../imagenes/p1.webp);
   }
-  
+   
   .swiper-navBtn{
 	color: #6E93f7;
 	transition: color 0.3s ease;
