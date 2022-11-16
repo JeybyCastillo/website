@@ -1,0 +1,145 @@
+body{
+     background-image: url(../imagenes/otros.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center center;
+     background-attachment: fixed;
+   }
+
+   .cuerpo{
+    height: 108vh;
+    display: block;
+   }
+
+   .pz1{
+    width: 90%;
+    height: 24.5vh;
+   /* background-color: aquamarine;*/
+    justify-content: center;
+}
+.pz2{
+  justify-content: center;
+    width: 90%;
+    height: 15vh;
+    height: 24.5vh;
+   /* background-color: yellow;*/
+}
+.pz3{
+  justify-content: center;
+    width: 90%;
+    height: 24.5vh;
+    /*background-color: brown;*/
+}
+.pz4{
+  justify-content: center;
+    width: 90%;
+    height: 8vh;
+    /*background-color: rgb(42, 61, 165);*/
+}
+
+.texto{
+    width: 20%;
+   /* background-color: rgb(255, 255, 255);*/
+}
+.formas{
+    width: 40%;
+   /* background-color: wheat;*/
+}
+
+.imagen{
+    width: 20%;
+    background-color: rgb(34, 28, 30);
+    border-radius: 10%;
+    margin-left: 1%;
+}
+
+.lb{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: large;
+    margin: auto;
+    margin-bottom: -1.5vh;
+     display: flex;
+}
+/*file*/
+.upload{
+    padding-top: 8%;
+    width: 110px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .upload img{
+    border-radius: 50%;
+    border: 6px solid #eaeaea;
+  }
+  
+  .upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00B4FF;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+  /*fin*/
+
+  .imagen1{
+    width: 20%;
+   /* background-color: rgb(34, 28, 30);*/
+    border-radius: 10%;
+    margin-left: 1%;
+}
+.text-light{
+  margin-left: 13%;
+  width: 75%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.lb1{
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-size: large;
+  margin: auto;
+  margin-bottom: -1.5vh;
+   display: flex;
+}
+
+.formas1{
+  width: 61%;
+ /* background-color: wheat;*/
+}
+@media screen and (max-width: 979px) {
+
+  .imagen{
+    background-color: transparent;
+  }
+
+  .texto{
+    width: 30%;
+  }
+
+  .lb{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: -2vh;
+  }
+  .lb1{
+    font-size: small;
+    margin-bottom: -0.5vh;
+    font-weight: bold;
+  }
+
+}
